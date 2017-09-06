@@ -2,7 +2,6 @@
 
 # compiled output
 *.js
-public/
 .server/*
 !.server/spa-server*.js
 .cache/
