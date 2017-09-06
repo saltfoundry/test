@@ -29,7 +29,8 @@
   },
   "engines": {
     "node": "6.9.2",
-    "npm": "3.10.9"
+    "npm": "3.10.9",
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "express": "^4.15.3",
