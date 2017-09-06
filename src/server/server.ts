@@ -46,7 +46,7 @@ server.get('*', (req, res) => {
 /**
  * Port & host settings
  */
-const port = 8000;
+const port = 5000;
 const PORT = process.env.PORT || port;
 const HOST = process.env.BASE_URL || 'localhost';
 const baseUrl = `http://${HOST}:${PORT}`;
@@ -56,7 +56,7 @@ server.set('port', PORT);
 /**
  * Begin listening
  */
-server.listen(server.get('port'), () => {
+server.listen((process.env.PORT || 5000), () => {
   // tslint:disable-next-line
   console.log(`Express server listening on ${baseUrl}`);
 });
