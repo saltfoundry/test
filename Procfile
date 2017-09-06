@@ -1,1 +1,1 @@
-web: node ./server/spa-server.js
+web: node .server/spa-server.js
