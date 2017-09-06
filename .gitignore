@@ -4,6 +4,7 @@
 *.js
 .server/*
 !.server/spa-server*.js
+!.server/server*.js
 .cache/
 .temp/
 *.d.ts
