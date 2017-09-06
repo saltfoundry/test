@@ -51,12 +51,12 @@ const PORT = process.env.PORT || port;
 const HOST = process.env.BASE_URL || 'localhost';
 const baseUrl = `http://${HOST}:${PORT}`;
 
-server.set('port', PORT);
+server.set('port', (process.env.PORT || 5000));
 
 /**
  * Begin listening
  */
-server.listen((process.env.PORT || 5000), () => {
+server.listen(server.get('port'), () => {
   // tslint:disable-next-line
   console.log(`Express server listening on ${baseUrl}`);
 });
