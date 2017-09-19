@@ -200,6 +200,7 @@ const bundle = {
         const conf = $.webpackConfig({
           env: 'dev',
           platform: 'server'
+         
         }, $$.root, settings);
 
         $.webpack(conf)
@@ -211,6 +212,7 @@ const bundle = {
         const conf = $.webpackConfig({
           env: 'prod',
           platform: 'server'
+          
         }, $$.root, settings);
 
         $.webpack(conf)

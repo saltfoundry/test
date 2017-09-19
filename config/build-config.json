@@ -4,7 +4,7 @@
   "host": "localhost",
   "port": {
     "browser": 1337,
-    "server": 3001
+    "server": "{{process.env.PORT}}"
   },
   "root": ".",
   "paths": {
