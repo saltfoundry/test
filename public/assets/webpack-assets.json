@@ -1,11 +1,9 @@
 {
   "app": {
-    "js": "assets/app.bundle.js"
-  },
-  "vendor": {
-    "js": "assets/vendor.bundle.js"
+    "js": "assets/app.6ffa8dcac560a730ae5e.bundle.js",
+    "css": "assets/app.6ffa8dcac560a730ae5e.style.css"
   },
   "polyfills": {
-    "js": "assets/polyfills.bundle.js"
+    "js": "assets/polyfills.38786da0ff5455d92aa1.bundle.js"
   }
 }
